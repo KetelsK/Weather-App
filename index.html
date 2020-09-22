@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/eeb52af6a7.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Weather App</title>
+  </head>
+
+  <body>
+    <h1>Weather App</h1>
+    <div class="search-box">
+      <input
+        class="search-city"
+        type="text"
+        name=""
+        placeholder="Search for a city..."
+      />
+      <div class="search-btn">
+        <i class="fas fa-search"></i>
+      </div>
+    </div>
+    <br />
+    <p class="error-city">Can't find this City !</p>
+    <div class="forecast-container">
+      <div class="info-container">
+        <div class="city-icon-container">
+          <div id="city"></div>
+          <img id="icon-weather" />
+        </div>
+        <div id="temperature"></div>
+        <div id="phrase"></div>
+      </div>
+    </div>
+  </body>
+
+  <script src="script.js"></script>
+</html>
