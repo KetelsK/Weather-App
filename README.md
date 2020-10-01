@@ -1,6 +1,7 @@
 # Weather App
 
 A simple Weather App made with HTML/CSS/JavaScript and the AccuWeather API.
+You can try it at https://weatherappketels.herokuapp.com/
 
 # What I learnt:
 
